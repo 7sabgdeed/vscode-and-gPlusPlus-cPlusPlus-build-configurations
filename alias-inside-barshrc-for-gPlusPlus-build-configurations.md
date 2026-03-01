@@ -17,3 +17,20 @@ then run
 ```shell
 source ~/.bashrc
 ```
+
+
+***
+
+```shell
+# debug <OUTPUT_FILE_NAME> <SOURCE_CODE_FILE> for debug build
+# ex:
+debug calculator calculator.cpp
+./calculator
+
+
+# release <OUTPUT_FILE_NAME> <SOURCE_CODE_FILE> for release build
+# ex:
+release calculator calculator.cpp
+./calculator
+
+```
