@@ -31,7 +31,7 @@ Above the “${file}” line, add these lines:
 "-std=c++23",
 ```
 
-so your tasks.json should be something like this:
+so your tasks.json should be something like this (after you set it for debug build):
 
 ```json
 {
